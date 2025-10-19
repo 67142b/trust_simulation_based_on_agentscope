@@ -1,0 +1,41 @@
+{
+  "experiment_type": "mixed_concurrent",
+  "timestamp": "2025-10-19T12:50:27.894570",
+  "config": {
+    "num_agents": 2,
+    "num_rounds": 2,
+    "initial_endowment": 100,
+    "trust_game_multiplier": 3,
+    "experiments": [
+      "trust_game",
+      "dictator_game"
+    ]
+  },
+  "trust_game": {
+    "results": [],
+    "summary_stats": {},
+    "rankings": [
+      {
+        "name": "Alice",
+        "total_profit": 0,
+        "avg_profit": 0,
+        "games_played": 0
+      }
+    ]
+  },
+  "dictator_game": {
+    "results": [],
+    "summary_stats": {},
+    "rankings": [
+      {
+        "name": "Bob",
+        "total_given": 0,
+        "total_received": 0,
+        "avg_generosity": 0,
+        "times_as_dictator": 0,
+        "times_as_receiver": 0
+      }
+    ],
+    "personality_correlations": {}
+  }
+}

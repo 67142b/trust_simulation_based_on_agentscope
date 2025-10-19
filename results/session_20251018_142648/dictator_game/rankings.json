@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Alice",
+    "total_given": 100.0,
+    "total_received": 60.0,
+    "avg_generosity": 0.5,
+    "times_as_dictator": 2,
+    "times_as_receiver": 2
+  },
+  {
+    "name": "Charlie",
+    "total_given": 80.0,
+    "total_received": 70.0,
+    "avg_generosity": 0.4,
+    "times_as_dictator": 2,
+    "times_as_receiver": 2
+  },
+  {
+    "name": "Bob",
+    "total_given": 40.0,
+    "total_received": 90.0,
+    "avg_generosity": 0.2,
+    "times_as_dictator": 2,
+    "times_as_receiver": 2
+  }
+]

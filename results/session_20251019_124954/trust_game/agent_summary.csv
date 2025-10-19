@@ -1,0 +1,3 @@
+name,age,education,final_endowment,total_beliefs,total_desires,total_intentions,games_played,trait_openness,trait_conscientiousness,trait_extraversion,trait_agreeableness,trait_neuroticism,avg_trust_score
+Alice,26,Bachelor's Degree,420.0,9,6,4,6,0.8092316740968841,0.5955759527784413,0.6357999239170882,0.8140336794005345,0.3976486238832547,0.5375
+Bob,31,High School,380.0,9,4,4,6,0.4126878722462312,0.8458223296327747,0.5161604977199364,0.29957399943959706,0.3635677047899994,0.5611232123118935

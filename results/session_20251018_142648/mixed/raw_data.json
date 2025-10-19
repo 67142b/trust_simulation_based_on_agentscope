@@ -1,0 +1,72 @@
+{
+  "experiment_type": "mixed_concurrent",
+  "timestamp": "2025-10-18T14:28:38.954508",
+  "config": {
+    "num_agents": 3,
+    "num_rounds": 2,
+    "initial_endowment": 100,
+    "trust_game_multiplier": 3,
+    "experiments": [
+      "trust_game",
+      "dictator_game"
+    ]
+  },
+  "trust_game": {
+    "results": [],
+    "summary_stats": {},
+    "rankings": [
+      {
+        "name": "Alice",
+        "total_profit": 0,
+        "avg_profit": 0,
+        "games_played": 0
+      }
+    ]
+  },
+  "dictator_game": {
+    "results": [
+      "DictatorGameResult(dictator='Charlie', receiver='Bob', total_amount=100, allocated_amount=40.0, kept_amount=60.0, generosity_ratio=0.4, round_number=1)",
+      "DictatorGameResult(dictator='Bob', receiver='Charlie', total_amount=100, allocated_amount=20.0, kept_amount=80.0, generosity_ratio=0.2, round_number=1)"
+    ],
+    "summary_stats": {
+      "total_rounds": 2,
+      "avg_allocation": 30.0,
+      "avg_generosity_ratio": 0.30000000000000004,
+      "max_allocation": 40.0,
+      "min_allocation": 20.0,
+      "fully_generous": 0.0,
+      "fully_selfish": 0.0,
+      "fair_splits": 0.5
+    },
+    "rankings": [
+      {
+        "name": "Charlie",
+        "total_given": 40.0,
+        "total_received": 20.0,
+        "avg_generosity": 0.4,
+        "times_as_dictator": 1,
+        "times_as_receiver": 1
+      },
+      {
+        "name": "Bob",
+        "total_given": 20.0,
+        "total_received": 40.0,
+        "avg_generosity": 0.2,
+        "times_as_dictator": 1,
+        "times_as_receiver": 1
+      }
+    ],
+    "personality_correlations": {
+      "extraversion": {
+        "avg_generosity": 0.4,
+        "count": 1,
+        "std_dev": 0.0
+      },
+      "conscientiousness": {
+        "avg_generosity": 0.2,
+        "count": 1,
+        "std_dev": 0.0
+      }
+    }
+  }
+}

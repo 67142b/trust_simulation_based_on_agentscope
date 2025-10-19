@@ -1,0 +1,5 @@
+investor,trustee,investment_amount,return_amount,investor_profit,trustee_profit,round_number
+Alice,Bob,60.0,90.0,30.0,90.0,1
+Bob,Alice,60.0,120.0,60.0,60.0,1
+Alice,Bob,80.0,160.0,80.0,80.0,2
+Bob,Alice,100.0,150.0,50.0,150.0,2

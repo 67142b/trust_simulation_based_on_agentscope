@@ -1,0 +1,8 @@
+agentscope
+asyncio
+numpy
+pandas
+matplotlib
+json
+shortuuid
+dashscope

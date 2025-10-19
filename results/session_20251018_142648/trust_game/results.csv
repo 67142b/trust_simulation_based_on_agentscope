@@ -1,0 +1,13 @@
+investor,trustee,investment_amount,return_amount,investor_profit,trustee_profit,round_number
+Alice,Charlie,50.0,75.0,25.0,75.0,1
+Bob,Alice,30.0,45.0,15.0,45.0,1
+Alice,Bob,50.0,75.0,25.0,75.0,1
+Charlie,Bob,50.0,75.0,25.0,75.0,1
+Bob,Charlie,30.0,45.0,15.0,45.0,1
+Charlie,Alice,50.0,75.0,25.0,75.0,1
+Alice,Charlie,60.0,90.0,30.0,90.0,2
+Bob,Alice,40.0,60.0,20.0,60.0,2
+Charlie,Bob,60.0,90.0,30.0,90.0,2
+Charlie,Alice,60.0,90.0,30.0,90.0,2
+Bob,Charlie,40.0,60.0,20.0,60.0,2
+Alice,Bob,60.0,90.0,30.0,90.0,2

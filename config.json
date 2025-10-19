@@ -1,0 +1,30 @@
+{
+  "model_config": {
+    "model_name": "qwen3-30b-a3b-instruct-2507",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "stream": false
+  },
+  "experiment_config": {
+    "num_agents": 2,
+    "num_rounds": 2,
+    "initial_endowment": 100,
+    "trust_game_multiplier": 3,
+    "experiments": ["trust_game", "dictator_game"]
+  },
+  "agent_config": {
+    "memory_limit": 50,
+    "enable_cot": true,
+    "enable_browser_tool": false,
+    "personality_traits": ["openness", "conscientiousness", "extraversion", "agreeableness", "neuroticism"],
+    "enable_long_term_memory": true,
+    "max_short_term_memory_length": 20,
+    "max_long_term_memory_length": 5,
+    "use_llm_for_parameter_updates": true
+  },
+  "output_config": {
+    "results_dir": "./results",
+    "save_interactions": true,
+    "save_agent_states": true,
+    "format": "json"
+  }
+}

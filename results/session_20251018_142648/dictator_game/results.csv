@@ -1,0 +1,7 @@
+dictator,receiver,total_amount,allocated_amount,kept_amount,generosity_ratio,round_number
+Bob,Alice,100,20.0,80.0,0.2,1
+Charlie,Bob,100,40.0,60.0,0.4,1
+Bob,Charlie,100,20.0,80.0,0.2,1
+Alice,Charlie,100,50.0,50.0,0.5,1
+Charlie,Alice,100,40.0,60.0,0.4,1
+Alice,Bob,100,50.0,50.0,0.5,1

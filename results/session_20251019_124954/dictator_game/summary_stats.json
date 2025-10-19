@@ -1,0 +1,10 @@
+{
+  "total_rounds": 2,
+  "avg_allocation": 50.0,
+  "avg_generosity_ratio": 0.5,
+  "max_allocation": 60.0,
+  "min_allocation": 40.0,
+  "fully_generous": 0.0,
+  "fully_selfish": 0.0,
+  "fair_splits": 1.0
+}
