@@ -56,7 +56,7 @@ trust_simulation/
 
 1. 克隆项目代码：
    ```bash
-   git clone https://github.com/67142b/trust_simulation.git
+   git clone https://github.com/67142b/trust_simulation_bansed_on_agentscope.git
    cd trust_simulation
    ```
 
