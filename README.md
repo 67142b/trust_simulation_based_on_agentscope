@@ -56,7 +56,7 @@ trust_simulation/
 
 1. 克隆项目代码：
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/67142b/trust_simulation.git
    cd trust_simulation
    ```
 
